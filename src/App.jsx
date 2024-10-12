@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Navebar from './components/Navebar'
 
 
 
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <>
-    <h1>welcome to react</h1>
+      <Navebar/>
+     <h1>welcome to react</h1>
       
     </>
   )
